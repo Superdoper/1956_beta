@@ -1,4 +1,4 @@
-﻿#####-----> Mod by Sig "GreatExperiment" Altre
+#####-----> Mod by Sig "GreatExperiment" Altre
 ####-----> Reorganized by Pordy <><> <><> <><>
 spriteTypes = {
 ###------> ARG <><> <><> <><> <><> <><>
@@ -2038,7 +2038,7 @@ spriteType = {
 	}
 	spriteType = { 
 		name = "GFX_idea_Biamax"
-		texturefile = "gfx/interface/ideas/gre/r56_idea_GRE_Biamax.dds"
+		texturefile = "gfx/interface/ideas/gre/r56_idea_GRE_biamax.dds"
 	}
 	spriteType = { 
 		name = "GFX_idea_aekkea_raab"
@@ -2054,7 +2054,7 @@ spriteType = {
 	}
 	spriteType = { 
 		name = "GFX_idea_Neorion"
-		texturefile = "gfx/interface/ideas/gre/r56_idea_GRE_Neorion.dds"
+		texturefile = "gfx/interface/ideas/gre/r56_idea_GRE_neorion.dds"
 	}
 	spriteType = { 
 		name = "GFX_idea_oasa"
@@ -2062,7 +2062,7 @@ spriteType = {
 	}
 	spriteType = { 
 		name = "GFX_idea_Viohalco"
-		texturefile = "gfx/interface/ideas/gre/r56_idea_GRE_Viohalco.dds"
+		texturefile = "gfx/interface/ideas/gre/r56_idea_GRE_viohalco.dds"
 	}
 	spriteType = { 
 		name = "GFX_idea_ntua"
