@@ -3425,7 +3425,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		x = 3
 		y = 1
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3436,23 +3436,23 @@ focus_tree = {
 
 		completion_reward = {
 		
-				122 = { 
-					add_building_construction = { 
-					type = industrial_complex 
-					level = 3
-					instant_build = yes 
-					}
-				add_extra_state_shared_building_slots = 3
-				}	
-				130 = { 
-					add_building_construction = { 
+			122 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = { 
 					type = industrial_complex 
 					level = 2
 					instant_build = yes 
-					}
-				add_extra_state_shared_building_slots = 2
-				}	
+				}
+			}
 			
+			130 = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = { 
+					type = industrial_complex 
+					level = 2
+					instant_build = yes 
+				}
+			}
 		}
 	}
 	
@@ -3488,7 +3488,7 @@ focus_tree = {
 		icon = GFX_goal_generic_scientific_exchange
 		x = 3
 		y = 5
-		cost = 5	
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}	
