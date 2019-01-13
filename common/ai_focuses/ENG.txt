@@ -1,69 +1,64 @@
-#####---------------------------------------------------------------------> edited by Greatexperiment
 
 ai_historical_focus_list_ENG = {
 	ai_national_focuses = {
-		crypto_bomb_focus
-		tizard_mission_focus
-		ENG_appeasement
-		ENG_military_training_act
-		ENG_polish_guarantee
-		general_rearmament_focus
-		ENG_home_guard
-		uk_extra_tech_slot
-		uk_small_arms_focus
-		ENG_royal_navy
-		ENG_improved_screen_ships
-		ENG_house_of_commons
-		ENG_peace_time
-		ENG_visit_france
-		ENG_visit_usa
-		ENG_bilateral_trade
-		ENG_foreign_investments
-		ENG_reaffirm_naval
-		ENG_visit_japan
-		ENG_nyon_conference
-		ENG_fourth_ministry
-		ENG_equipment_effort
-		naval_rearmament_focus
-		ENG_boat_menace	
-		fighter_command_focus
-		coastal_command_focus
-		aircraft_production_focus
-		ENG_military_drills
-		ENG_artillery_focus
-		ENG_motorized_focus
-		ENG_special_forces
-		uk_amphibious_focus
-		ENG_military_aviation
-		ENG_war_cabinet
-		uk_waves_focus
-		ENG_war_propaganda
-		uk_empire_focus 
-		limited_rearmament_focus 
-		air_rearmament_focus
-		ENG_foreign_sec
-		ENG_colonial_secretary 
-		uk_colonial_focus 
-		ENG_home_defence
-		uk_protect_suez
-		uk_mediterranean_focus 
-		royal_ordinance_focus
-		uk_malta_focus
-		uk_extra_tech_slot
-		ENG_war_office
-		ENG_admiralty
-		uk_service_focus 
-		air_defense_focus
-		radar_focus
-		ENG_issue_gasmasks
-		maud_focus
-		uk_carrier_focus
-		uk_canada_focus 
-		shadow_scheme_focus
-		uk_australia_focus 
-		uk_south_africa_focus
-		uk_new_zealand_focus 
-		uk_india_focus 
+		uk_rearmament #limited_rearmament_focus
+		uk_mi
+		uk_shadow_scheme #shadow_scheme_focus
+		uk_coastal_forts
+		uk_anti_air #air_defense_focus
+		uk_research_slot
+		uk_carrots #radar_focus
+		#uk_industrial_focus #is uk_mi
+		uk_stay_course #uk_empire_focus
+		uk_british_army #uk_service_focus
+		#general_rearmament_focus
+		uk_raf #air_rearmament_focus
+		uk_colonial_policy #uk_colonial_focus
+		uk_develop_india #uk_asia_focus
+		uk_burma_road #uk_burma_focus
+		uk_navy #naval_rearmament_focus
+		#uk_extra_tech_slot #is uk_research_slot
+		uk_mw_1 #ENG_motorized_focus
+		#ENG_home_defence #is uk_coastal_forts
+		uk_gbp_2
+		uk_mw_3 #ENG_tank_focus
+		#crypto_bomb_focus
+		uk_gbp_4
+		uk_conscription #ENG_issue_gasmasks
+		#ENG_military_training_act 
+		uk_SAS
+		uk_fighter_command #fighter_command_focus
+		uk_bomber_command #bomber_command_focus
+		uk_coastal_command #coastal_command_focus
+		uk_air_training #aircraft_production_focus
+		uk_wartime_measurse
+		tizard_mission_focus #tizard_mission_focus
+		uk_fib_1 #uk_destroyer_focus
+		uk_fib_2 #uk_waves_focus
+		uk_marines #uk_convoy_focus
+		uk_nuclear_b #maud_focus
+		uk_mediterranean_fortress #uk_mediterranean_focus
+		uk_fib_3 #uk_carrier_focus
+		uk_depth_defence #hongkong_focus
+		uk_iraq_focus #uk_iraq_focus
+		uk_fortify_suez
+		uk_fortify_gibraltar #uk_rock_focus
+		#singapore_focus
+		#peninsular_focus
+		uk_enfields #uk_small_arms_focus
+		#uk_amphibious_focus #is uk_marines
+		#uk_protect_suez #is uk_fortify_suez
+		#uk_malta_focus
+		uk_develop_dominions #uk_commonwealth_focus
+		uk_develop_canada #uk_canada_focus
+		uk_develop_australia #uk_australia_focus
+		uk_develop_nz #uk_new_zealand_focus
+		uk_develop_sa #uk_south_africa_focus
+		uk_rof #royal_ordinance_focus
+		uk_missiles #UK_secret_focus
+		uk_dowding
+		uk_bomber_stream
+		uk_jets #uk_jet_focus
 	}
 }
 
@@ -118,6 +113,7 @@ ai_focus_military_advancements_ENG = {
 		night_vision = 5.0
 	}
 }
+
 
 ai_focus_peaceful_ENG = {
 	research = {

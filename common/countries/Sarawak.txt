@@ -1,0 +1,7 @@
+
+
+graphical_culture = asian_gfx
+graphical_culture_2d = commonwealth_2d
+
+color = rgb { 178 114 99 } #light brownish
+color_ui = rgb { 178 114 99 }

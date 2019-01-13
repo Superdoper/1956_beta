@@ -871,6 +871,30 @@ leader_traits = {
 		}	
 	}
 	
+###------> ENG <><> <><> <><> <><> <><>
+
+	freedom_lover = {
+		random = no
+		# Boosts autonomy
+		sprite = 13
+		autonomy_gain = 0.5
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	reactionary_champion = {
+		random = no
+		# Boosts non-aligned
+		sprite = 13
+		neutrality_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 ###------> ETH <><> <><> <><> <><> <><>
 	
 	ETH_solomonic_dynasty = {

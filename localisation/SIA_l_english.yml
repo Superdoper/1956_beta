@@ -201,9 +201,9 @@
  PRC_aid:0 "Chinese Communist Volunteer Forces"
  PRC_aid_desc:0 "Our fellow comrades, the Chinese, are in deep trouble. The spirit of communism is threatened by the evil expansionist doctrine of the Japanese Empire. Our countrymen are more than happy to help their brothers in arms. For the revolution!"
  
- britain.30.t:0 "Siam wants to join Allies"
- britain.30.d:0 "Recent developments in Siam have brought about the replacement of totalitarianism with a sound, yet young, democracy. \n Today, they have asked to join the Allies. Should we let them in?"
- britain.30.a:0 "Sure, let them in."
+ #britain.30.t:0 "Siam wants to join Allies"
+ #britain.30.d:0 "Recent developments in Siam have brought about the replacement of totalitarianism with a sound, yet young, democracy. \n Today, they have asked to join the Allies. Should we let them in?"
+ #britain.30.a:0 "Sure, let them in."
  news.30011.t:0 "Siam joins the Allies"
  news.30011.d:0 "The young democratic nation of Siam faces many hardships and external threats, particularly from agressive expansionists such as Japan. Fearing a potential invasion, Siam has decided to bury the old grievances with the western empires and aid them in their incoming war efforts." 
  news.30011.a:0 "Democracy is spreading to every corner of the world"

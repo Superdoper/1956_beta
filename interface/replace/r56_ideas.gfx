@@ -385,11 +385,11 @@ spriteTypes = {
 
 
 ###------> DNZ <><> <><> <><> <><> <><>
-spriteType = {
+	spriteType = {
 		name = "GFX_idea_sean_lester"
 		texturefile = "gfx/interface/ideas/dnz/r56_idea_DNZ_sean_lester.dds"
 	}
-spriteType = {
+	spriteType = {
 		name = "GFX_idea_carl_jacob_burckhardt"
 		texturefile = "gfx/interface/ideas/dnz/r56_idea_DNZ_carl_jacob_burckhardt.dds"
 	}
@@ -398,10 +398,19 @@ spriteType = {
 ###------> ENG <><> <><> <><> <><> <><>	
 	spriteType = {
 		name = "GFX_idea_ENG_alan_turing"
-		texturefile = "gfx/interface/ideas/eng/advisor/r56_idea_ENG_advisor_alan_turing.dds"
+		texturefile = "gfx/interface/ideas/eng/advisors/r56_idea_ENG_advisor_alan_turing.dds"
 	}
 
-
+	
+	spriteType = {
+		name = "GFX_idea_wallis_simpson"
+		texturefile = "gfx/interface/ideas/idea_wallis_simpson.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hitler_dead"
+		texturefile = "gfx/interface/ideas/idea_hitler_dead.dds"
+	}
+	
 ###------> EST <><> <><> <><> <><> <><>
 	spriteType = {
 		name = "GFX_idea_kaitseliit"

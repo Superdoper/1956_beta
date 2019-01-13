@@ -621,6 +621,33 @@ spriteTypes = {
 		name = "GFX_report_event_riot_police_poland"
 		texturefile = "gfx/event_pictures/report_event_riot_police_poland.dds"
 	}
+	
+###------> ENG <><> <><> <><> <><> <><>	
+
+	spriteType = {
+		name = "GFX_report_event_wallis_simpson"
+		texturefile = "gfx/event_pictures/report_event_wallis_simpson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_coronation_edward"
+		texturefile = "gfx/event_pictures/news_event_coronation_edward.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_coronation_george"
+		texturefile = "gfx/event_pictures/news_event_coronation_george.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_cable_street"
+		texturefile = "gfx/event_pictures/report_event_cable_street.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_anthropoid"
+		texturefile = "gfx/event_pictures/news_event_anthropoid.dds"
+	}
 
 
 ###------> EST <><> <><> <><> <><> <><>	
