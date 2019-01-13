@@ -54,8 +54,40 @@ ideas = {
 			
 			removal_cost = -1
 			
-			traits = { popular_figurehead }
+			modifier = {
+				stability_factor = 0.1
+			}
+
+		}
+		
+		ENG_wallis_simpson = {
 			
+			allowed = {
+				original_tag = ENG
+			}
+
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+				}
+				NOT = {
+					any_other_country = {
+						original_tag = ENG
+						has_government = democratic 
+						NOT = {
+							tag = ROOT
+						}
+					}
+				}
+			}
+
+			modifier = {
+				stability_factor = -0.2
+			}
+
+			picture = wallis_simpson
+			
+			removal_cost = -1
 
 		}
 
@@ -84,39 +116,9 @@ ideas = {
 			
 			removal_cost = -1
 			
-			traits = { popular_figurehead }
-			
-
-		}
-
-		ENG_wallis_simpson = {
-			
-			allowed = {
-				original_tag = ENG
-			}
-
-			allowed_civil_war = {
-				NOT ={
-					has_government = communism
-				}
-				NOT = {
-					any_other_country = {
-						original_tag = ENG
-						has_government = democratic 
-						NOT = {
-							tag = ROOT
-						}
-					}
-				}
-			}
-
 			modifier = {
-				stability_factor = -0.1
+				stability_factor = 0.1
 			}
-
-			picture = wallis_simpson
-			
-			removal_cost = -1
 
 		}
 
@@ -2398,6 +2400,8 @@ ENG_Plan_Speed = {
 	theorist = {
 		
 		ENG_alan_turing = {
+		
+			picture = idea_ENG_alan_turing
 			
 			allowed = {
 				original_tag = ENG
@@ -2413,7 +2417,8 @@ ENG_Plan_Speed = {
 			
 			traits = { mathematician }
 			
-			available = { has_completed_focus = crypto_bomb_focus }
+			#available = { has_completed_focus = crypto_bomb_focus }
+			available = { has_completed_focus = uk_carrots }
 		}		
 
 		bernard_montgomery = {

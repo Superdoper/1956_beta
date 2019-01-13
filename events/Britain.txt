@@ -902,9 +902,11 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = crisis_resolved
 			remove_ideas = ENG_wallis_simpson
+			add_political_power = -50
 		}
 		effect_tooltip = {
 			remove_ideas = ENG_wallis_simpson
+			add_political_power = -50
 		}
 	}
 }
